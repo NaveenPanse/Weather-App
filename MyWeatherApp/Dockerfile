@@ -6,4 +6,4 @@ COPY . /app
 
 RUN mvn clean install -DskipTests
 
-CMD ["java","-jar","/app/target/backend-0.0.1-SNAPSHOT.jar"]
+CMD ["java","-jar","/app/target/MyWeatherApp-0.0.1-SNAPSHOT.jar"]
